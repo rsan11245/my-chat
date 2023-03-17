@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+
+.form-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    box-shadow: 0 0 10px #8d8181;
+    min-height: 500px;
+    width: 350px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.form.registration {
+    min-height: 640px;
+}
+
+.logo {
+    align-self: center;
+}
+
+.form-title {
+    align-self: center;
+    margin-block: 10px;
+}
+
+.form-title .h2 {
+    font-weight: 200;
+}
+
+.form-group {
+    margin-block: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group .input {
+    padding: 10px;
+    border: 1px solid #42C0FB;
+    border-radius: 5px;
+}
+
+.form-group .input:focus {
+    outline: 1px solid #42C0FB;
+}
+
+.form-group .error {
+    color: red;
+}
+
+.form-submit-button {
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    background: #42C0FB;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-submit-button:hover {
+    cursor: pointer;
+}
+
+.auth-redirect {
+    color: #42C0FB;
+    align-self: center;
+}
